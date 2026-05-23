@@ -12,8 +12,6 @@ The file encodes two types of knowledge using a hybrid approach:
 - An Associative Network representing actors, fictional characters and films
   from the Batman and Spiderman universe
 
-Built for CCS2600 Artificial Intelligence Techniques — University of York Europe Campus
-
 
 # Fuzzy Membership Degree Calculator 4.2
 
@@ -26,8 +24,3 @@ Supported functions:
 - Gaussian
 - Bell Shape
 - Sigmoid
-
-Features input validation, parameter guidance and a visual membership degree bar.
-Simply run the script, enter your variable name and follow the prompts.
-
-Built for CCS2600 Artificial Intelligence Techniques — University of York Europe Campus
