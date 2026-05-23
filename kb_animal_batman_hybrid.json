@@ -1,0 +1,92 @@
+{
+  "portfolio_4_1_kb": {
+    "taxonomy_frames": {
+      "Animal": {
+        "can_fly": true,
+        "birth_date": "Date",
+        "has_age": true
+      },
+      "Bird": {
+        "ako": "Animal",
+        "legs": 2,
+        "exceptions": {
+          "Penguin": { "can_fly": false }
+        }
+      },
+      "Mammal": {
+        "ako": "Animal",
+        "legs": 4,
+        "can_fly": false,
+        "exceptions": {
+          "Bat": { "legs": 2, "can_fly": true },
+          "Human": { "legs": 2 }
+        }
+      },
+      "Insect": {
+        "ako": "Animal",
+        "legs": 6,
+        "antennas": 2
+      }
+    },
+    "associative_network": {
+      "fictional_characters": [
+        { "name": "Batman",    "pretends_to_be": "Bat" },
+        { "name": "Spiderman", "pretends_to_be": "Spider" },
+        { "name": "Catwoman",  "pretends_to_be": "Cat" },
+        { "name": "Penguin",   "pretends_to_be": "Penguin_Animal" }
+      ],
+      "actors": [
+        {
+          "name": "Michael Keaton",
+          "born": 1951,
+          "gender": "male",
+          "roles": ["Batman"],
+          "starred_in": ["Batman Returns"],
+          "played_in": ["Batman Returns"]
+        },
+        {
+          "name": "Ben Affleck",
+          "born": 1972,
+          "gender": "male",
+          "roles": ["Batman"],
+          "played_in": ["Batman Films"]
+        },
+        {
+          "name": "Val Kilmer",
+          "born": 1959,
+          "gender": "male",
+          "roles": ["Batman"],
+          "played_in": ["Batman Films"]
+        },
+        {
+          "name": "Danny DeVito",
+          "born": 1944,
+          "gender": "male",
+          "roles": ["The Penguin"],
+          "starred_in": ["Batman Returns"],
+          "played_in": ["Batman Returns"]
+        },
+        {
+          "name": "Michelle Pfeiffer",
+          "born": 1958,
+          "gender": "female",
+          "roles": ["Catwoman"],
+          "starred_in": ["Batman Returns"],
+          "played_in": ["Batman Returns"]
+        },
+        {
+          "name": "Tobey Maguire",
+          "born": 1975,
+          "gender": "male",
+          "roles": ["Spiderman"],
+          "played_in": ["Spiderman Films"]
+        }
+      ],
+      "films": [
+        { "name": "Batman Returns",  "type": "movie",       "series": "Batman Films" },
+        { "name": "Batman Films",    "type": "film_series" },
+        { "name": "Spiderman Films", "type": "film_series" }
+      ]
+    }
+  }
+}
